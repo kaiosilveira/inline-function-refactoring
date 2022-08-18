@@ -1,0 +1,14 @@
+{
+  "name": "inline-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kaiosilveira/inline-function-refactoring.git",
+  "author": "Kaio Silveira",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
