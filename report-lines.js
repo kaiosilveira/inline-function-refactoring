@@ -4,9 +4,9 @@ function reportLines(aCustomer) {
   return lines;
 }
 
-function gatherCustomerData(out, aCustomer) {
-  out.push(['name', aCustomer.name]);
-  out.push(['location', aCustomer.location]);
+function gatherCustomerData(lines, aCustomer) {
+  lines.push(['name', aCustomer.name]);
+  lines.push(['location', aCustomer.location]);
 }
 
 module.exports = { reportLines, gatherCustomerData };
